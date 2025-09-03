@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-Powered Web & Mobile Developer - Creating innovative applications using cutting-edge AI tools like Loveable, Cursor, VS Code">
+    <meta name="keywords" content="AI Developer, Web Development, Mobile Apps, Loveable, Cursor, VS Code, AI Tools, Full Stack Developer">
+    <meta name="author" content="Urmit - AI-Powered Developer">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Urmit - AI-Powered Web & Mobile Developer">
+    <meta property="og:description" content="Professional developer leveraging AI tools to build exceptional web and mobile applications">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/images/og-image.jpg">
+    
+    <title>Urmit - AI-Powered Web & Mobile Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="flutter-logo">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div class="loading-text">Loading AI-Powered Portfolio...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <i class="fas fa-brain"></i>
+                    <span>AI.Dev</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">urmit</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    AI-powered developer creating innovative web and mobile applications using cutting-edge tools like
+                    Loveable, Cursor, VS Code, and other leading AI development platforms for exceptional user experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="./assets/images/developer-avatar.jpg" alt="AI-Powered Developer" />
+                    <div class="avatar-border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my AI-powered development journey</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-photo">
+                        <img src="./assets/images/about-photo.jpg" alt="About AI-Powered Developer" />
+                        <div class="photo-overlay">
+                            <div class="flutter-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>AI-Powered Web & Mobile Developer</h3>
+                    <p>
+                        With over 3 years of experience in web and mobile development, I specialize in leveraging
+                        cutting-edge AI tools like Loveable, Cursor, VS Code, and other leading platforms to create
+                        high-performance applications that deliver exceptional user experiences.
+                    </p>
+                    <p>
+                        My expertise spans the entire development lifecycle, from AI-assisted design and coding
+                        to deployment and optimization. I'm passionate about harnessing AI to accelerate development,
+                        improve code quality, and create innovative solutions that push the boundaries of what's possible
+                        in modern web and mobile development.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">AI-Assisted Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Years with AI Tools</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-actions">
+                        <a href="./assets/resume.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                        <div class="social-links">
+                            <a href="https://github.com" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://stackoverflow.com" target="_blank" class="social-link">
+                                <i class="fab fa-stack-overflow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">My technical expertise in AI-powered development and modern technologies</p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-robot"></i>
+                            <h3>AI Development Tools</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Loveable</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Cursor AI</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">GitHub Copilot</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">ChatGPT/Claude</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Web & Mobile Technologies</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React/Next.js</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React Native</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">TypeScript/JavaScript</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js/Express</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Development Tools & Platforms</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">VS Code</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git & GitHub</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Vercel/Netlify</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Firebase/Supabase</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcase of my AI-powered development work and achievements</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="ai">AI-Powered</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="./assets/images/project1.jpg" alt="AI-Powered E-Commerce Platform" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="1">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A modern e-commerce web application built using Loveable and Cursor AI, featuring
+                            intelligent product recommendations, automated customer support, and seamless user experience.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Loveable</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">AI Integration</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="./assets/images/project2.jpg" alt="AI-Enhanced Social Media App" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="2">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Enhanced Social Media App</h3>
+                        <p class="project-description">
+                            React Native social media application with AI-powered content moderation, smart photo tagging,
+                            and personalized feed algorithms built using Cursor AI and GitHub Copilot.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Cursor AI</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">AI/ML APIs</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <img src="./assets/images/project3.jpg" alt="AI Fitness Coach App" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="3">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Fitness Coach App</h3>
+                        <p class="project-description">
+                            Intelligent fitness application with AI-powered workout recommendations, form analysis,
+                            and personalized nutrition plans built using advanced AI tools and machine learning.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenAI API</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="./assets/images/project4.jpg" alt="AI Analytics Dashboard" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="4">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Analytics Dashboard</h3>
+                        <p class="project-description">
+                            Intelligent business dashboard built with Next.js and AI tools, featuring predictive analytics,
+                            automated insights, and smart data visualization powered by machine learning.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">AI Analytics</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <img src="./assets/images/project5.jpg" alt="AI Code Generator" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="5">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Code Generator</h3>
+                        <p class="project-description">
+                            Intelligent code generation tool built with AI APIs that creates React components,
+                            API endpoints, and database schemas from natural language descriptions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="./assets/images/project6.jpg" alt="Smart Food Delivery Platform" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="6">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Food Delivery Platform</h3>
+                        <p class="project-description">
+                            AI-powered food delivery web platform with intelligent recommendations, dynamic pricing,
+                            and automated customer service built using Loveable and modern web technologies.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Loveable</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">AI Recommendations</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My AI-powered development journey and educational background</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Senior AI-Powered Developer</h3>
+                            <span class="timeline-company">TechCorp Solutions</span>
+                            <span class="timeline-date">2022 - Present</span>
+                        </div>
+                        <div class="timeline-description">
+                            <p>
+                                Leading AI-powered development initiatives, leveraging tools like Loveable, Cursor, and GitHub Copilot
+                                to create innovative web and mobile applications with unprecedented speed and quality.
+                            </p>
+                            <ul>
+                                <li>Delivered 15+ AI-assisted web and mobile applications</li>
+                                <li>Reduced development time by 60% using AI tools and automation</li>
+                                <li>Implemented AI-driven code generation and testing workflows</li>
+                                <li>Mentored 8 developers in AI-powered development practices</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full Stack Developer</h3>
+                            <span class="timeline-company">StartupHub Inc.</span>
+                            <span class="timeline-date">2021 - 2022</span>
+                        </div>
+                        <div class="timeline-description">
+                            <p>
+                                Developed web and mobile applications for startup clients, pioneering the use of
+                                AI development tools to accelerate MVP development and improve code quality.
+                            </p>
+                            <ul>
+                                <li>Built 20+ web and mobile applications using React/React Native</li>
+                                <li>Integrated AI-powered features and third-party APIs</li>
+                                <li>Collaborated with designers using AI-assisted design tools</li>
+                                <li>Achieved 99.9% uptime across all deployed applications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Web Developer</h3>
+                            <span class="timeline-company">Digital Agency Pro</span>
+                            <span class="timeline-date">2020 - 2021</span>
+                        </div>
+                        <div class="timeline-description">
+                            <p>
+                                Started my journey in modern web development, exploring AI-powered development tools
+                                and establishing foundations in React, TypeScript, and automated development workflows.
+                            </p>
+                            <ul>
+                                <li>Built 10+ responsive web applications using React and TypeScript</li>
+                                <li>Pioneered AI tool adoption, reducing development time by 40%</li>
+                                <li>Conducted workshops on modern development practices and AI tools</li>
+                                <li>Established coding standards and automated testing workflows</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Computer Science</h3>
+                            <span class="timeline-company">University of Technology</span>
+                            <span class="timeline-date">2016 - 2020</span>
+                        </div>
+                        <div class="timeline-description">
+                            <p>
+                                Graduated with honors, specializing in web development, artificial intelligence,
+                                and modern software engineering principles.
+                            </p>
+                            <ul>
+                                <li>GPA: 3.8/4.0</li>
+                                <li>Relevant coursework: Web Development, AI/ML, Software Engineering, Database Systems</li>
+                                <li>Final project: AI-powered web application with 15,000+ users</li>
+                                <li>Active member of AI and Computer Science Society</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next AI-powered web or mobile project</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>San Francisco, CA, USA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>urmitsavaliya29121@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9909167793</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Availability</h4>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                             <a href="github.com" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://dribbble.com" target="_blank" class="social-link">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form" class="form">
+                        <div class="form-group">
+                            <div class="form-field">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Full Name</label>
+                                <span class="form-error" id="name-error"></span>
+                            </div>
+                            <div class="form-field">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Email Address</label>
+                                <span class="form-error" id="email-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-field">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <span class="form-error" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-field">
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <label for="message">Message</label>
+                            <span class="form-error" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                        
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 AI-Powered Developer Portfolio. Built with ❤️ using AI tools, HTML, CSS & JavaScript.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Project Title</h3>
+                <button class="modal-close" id="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-image" src="" alt="Project Image" />
+                </div>
+                <div class="modal-details">
+                    <p id="modal-description">Project description goes here...</p>
+                    <div class="modal-tech" id="modal-tech">
+                        <!-- Tech tags will be inserted here -->
+                    </div>
+                    <div class="modal-features" id="modal-features">
+                        <h4>Key Features:</h4>
+                        <ul id="modal-features-list">
+                            <!-- Features will be inserted here -->
+                        </ul>
+                    </div>
+                    <div class="modal-links">
+                        <a id="modal-github" href="#" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                        <a id="modal-demo" href="#" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="./js/main.js"></script>
+    <script src="./js/animations.js"></script>
+</body>
+</html>
+                            <a href="https://
